@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/whd.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Welcome to My Blog</title>
+</head>
+<body>
+    <nav class="menu"  id="about">
+        <img src="img/2WHD.png" alt="">
+        <ul>
+            <a href="#about" target="_blank">About</a>
+            <a href="#projects" target="_blank">Projects</a>
+            <a href="#contact" target="_blank">Contact</a>
+            <a href="">  NavBar  </a>
+        </ul>
+        <div class="social-icons">
+        <a href="https://github.com/SuperbVisor" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/athwal_ali/channel/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@egarathwalmahali431" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h1>Hi, I'm Egar Athwal.M</h1>
+            <p class="cssanimation typing" >I'm a Web Dev, <span>Pixelart lovers</span> and <span>UI UX Designer</span>....</p>
+            <section class="section1">
+                <p>Saat ini, saya sedang membangun web blog ini menggunakan Visual Studio Code sebagai editor utama dan murni menggunakan HTML serta CSS tanpa 
+                    framework tambahan.
+                    Proyek ini masih dalam tahap pengembangan, yang belum selesai atau belum diimplementasikan, dan juga saya masih pemula.</p>
+            </section>
+        </div>
+        <div class="slider">
+            <img src="img/imgslider/slider1.gif" alt="Slide 1" class="active">
+            <img src="img/imgslider/slider2.gif" alt="Slide 2">
+            <img src="img/imgslider/slider3.gif" alt="Slide 3">
+            <img src="img/imgslider/slider4.gif" alt="Slide 4">
+        </div>        
+    </header>
+
+    
+    <section id="projects" class="section2">
+        <h2>My Projects</h2>
+        <div class="project-links">
+            <a href="#" class="back-link">Back</a>
+            <a href="#contact" class="contact-link">Contact</a>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <img src="img/images/project1.png" alt="Project 1">
+                <div class="card-overlay">
+                    <h3>Web Game Center</h3>
+                    <p>Project Membuat web apps dengan server flask dan juga databse sqlite dan di deploy pakai azure.</p>
+                    <a href="https://gamestorefree-edczbmc0e5hdb9en.southeastasia-01.azurewebsites.net/">linknya</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/images/project2.png" alt="Project 2">
+                <div class="card-overlay">
+                    <h3>Pixel Adventure</h3>
+                    <p>Pembuatan Game 2D Platformer dengan flask dan js.</p>
+                    <p>(comming soon)</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/images/project4.png" alt="Project 2">
+                <div class="card-overlay">
+                    <h3>Game MiawPaw</h3>
+                    <p>Ini adalah game pertama yang saya publik dan deploy menggunakan azure, tentang kucing mewek yang menhindari kucing nakal.</p>
+                    <a href="https://miawgames-chdugseyhze6dfax.southeastasia-01.azurewebsites.net/login">linknya</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/images/project3.png" alt="Project 2">
+                <div class="card-overlay">
+                    <h3>Pixel Art</h3>
+                    <p>Saya Juga bisa membuat gambar pixel menggunakan website www.pixilart.com.</p>
+                    <p>(comming soon)</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/images/project5.png" alt="Project 2">
+                <div class="card-overlay">
+                    <h3>KapalLawud</h3>
+                    <p>Sedang dalam pengembangan dan kebinggungan</p>
+                    <p>(comming soon)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="contact-content">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out via this form, and I’ll get back to you soon! this tab using a Emailjs</p>
+            <a href="#" class="back-link">Back to top</a>
+            <br>
+            <img src="img/2WHD.png" alt="">
+        </div>
+        <div class="contact-form-container">
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+            <p id="status-message"></p>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Egar Athwal. All Rights Reserved.</p>
+    </footer>
+
+    <script src="gonu.js"></script>
+</body>
+</html>
